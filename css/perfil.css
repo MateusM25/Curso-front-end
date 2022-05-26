@@ -1,0 +1,68 @@
+*{ margin: 40px auto;}
+
+Html { margin: auto;
+font-family: 'Times New Roman', Times, serif;
+background: url(../fundos/max.jpg);
+background-repeat: round;
+
+
+}
+
+ul a {color: rgb(9, 255, 255);
+font-weight: bold;
+margin: 10px auto;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: 25px;
+text-decoration: none;
+}
+a {margin: 20px;}
+a:hover {color: #006742;}
+
+h2 {margin-left: 30% ;
+font-size: 50px;
+color: #006742;
+}
+
+h1 {color: aqua;
+font-size: 30;
+margin-left: 50%;
+font-size: 30px;
+
+}
+ 
+p {margin-left: 20% ;
+margin-right: 10% ;
+color: rgb(0, 255, 255);
+font-size: 19px;
+}
+
+
+    footer  {margin-left: 30% ;}
+
+.div-01 {box-sizing: border-box;
+    background-color: rgba( 0%,0%, 0%, 35%);
+    margin-left:15%;
+    margin-right: 10%;
+    border-radius: 15%;
+}
+.div-02 {box-sizing: border-box;
+background-color: rgba( 0%,0%, 0%, 35%);
+margin-left:15%;
+margin-right: 10%;
+border-radius: 15%;}
+
+
+
+@media (max-width: 425px)
+{
+
+    
+h2 {font-size: 40px;
+margin-right: 20%;}
+
+footer {text-align: center;
+    margin-right: 25%;
+}
+
+}
