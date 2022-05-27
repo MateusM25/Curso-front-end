@@ -10,7 +10,7 @@ background-repeat: round;
 
 }
 .lua {background: url(../fundos/Sepik.jpg);
-background-repeat: no-repeat;}
+background-repeat: round;}
 
 
 			body {
@@ -30,10 +30,13 @@ background-repeat: no-repeat;}
 			h1{color: #00fab3;}
 			
 			p{
-				font-size: 20;
+				font-size: 20px;
 				color: #00ffb7;
+				padding-top: 2%;
+				margin-left: 45%;
 			}
-			img{margin-left: 11%;}
+			img{margin-left: 11%;
+			border-radius: 50%;}
 			h2{color: #00fab3;
 			}
 			h4{font-size: 25px;
@@ -81,14 +84,14 @@ background-repeat: no-repeat;}
 			article a {
 			  float: left;
 			  padding: 20px;
-			  width: 70%;
+			  width:max-content ;
 			
 			  color: #09e4dc;
 			  text-decoration: none;
-			  margin-left: 30%;
+			  margin-left: -45%;
 			}
-
-			/* Clear floats after the columns */
+.paragrafo03
+{margin-left: -7.5%;}			/* Clear floats after the columns */
 			section::after {
 			  background: #ccc;
 			  content: "";
@@ -98,7 +101,7 @@ background-repeat: no-repeat;}
 
 			/* Style the footer */
 			footer {
-			  
+			margin-right: 32%;
 			  padding: 10px;
 			  text-align: center;
 			  color: black;
@@ -108,45 +111,22 @@ img:hover {filter:blur(5px);}
 
 
 			/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
-
-
-		
-
-			@media (max-width:425px)
-{ html { background-repeat: round;
-width: 100%;
-background-image: url(../fundos/ufo1.jpg);
-} }
-img {margin-left: 30%;}
-nav {width: 30%;}
-h4 {margin:5%;
-text-align: center;}
-
-p {text-align: center;
-margin-right: 20%;}
-article, p, a {width: 20%;} 
-footer {margin-left: 23%;}
-
-h1 {margin-left: 30%;}
-.lua{background-repeat: repeat }
-form {width: 100%;
-
-overflow: hidden;
-}
 textarea {width: 100%;}
 
-	@media (max-width: 600px) {
-			  nav, article {
-			    width: 100%;
-			    height: auto;
-			  }
-			}
-			article img {border-radius: 50%;
-			}
-a:hover{color: #006247;}
-.paragrafo-01 { margin-left: 30%;
-color: #00f7ff;}
-.paragrafo-02 { color: #00f7ff;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-size: 23px;
-margin-left: 30%; }
+@media (max-width: 425px)
+{ html {background: url(../fundos/ufo1.jpg);}
+h2 {margin-left: 40%;}
+  img {margin-left: 40%;
+}
+h4 {margin-left: 26%;}
+
+.paragrafo02 {width: 100%;
+margin-right: 20%;}
+.paragrafo03 {width: 100%;
+	margin-right: 20%;}
+footer{
+	margin-left: 40%;
+ }
+
+
+}
