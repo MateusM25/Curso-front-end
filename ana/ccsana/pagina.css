@@ -1,0 +1,196 @@
+html {font-family: 'Noto Sans JP', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Tiro Devanagari Marathi', serif;
+    font-family: 'Tiro Telugu', serif;
+font-size: 62,5%;
+width: 100%;}
+
+
+header {background-color: rgba(251, 152, 141, 0.767);
+margin-inline:auto;
+
+font-size: 0.8rem;
+    position: fixed;
+    top:0;
+    height: var(--header-height);
+    width: 100vw;
+    z-index: 100;
+}
+
+
+header .cabecalho{
+    height: var(--header-height);
+    width: 100%;
+    visibility: visible;
+
+}
+
+header .menucabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+margin-left: 20%;
+margin-top: -2%;
+
+}
+a { text-decoration: none;
+border: 2px;
+color: black; 
+    width: auto;
+font-size: 1.5rem;
+
+} 
+
+h1 {font-size: 2.5rem;
+    margin-top: 5%;
+margin-left: 40%;
+color: #F291AA;}
+
+
+h3 {margin-left: 2%;
+font-size: 1.6rem;
+color: #EB8681;}
+
+.nous {background-image: linear-gradient(to top, white, #feb0ab);
+background-repeat: round;
+}
+
+.nou {text-align: center;
+margin-left: 10%;
+font-size: 1.2rem;
+font-style:oblique;
+margin-right: 10%;
+}
+ 
+h4 {font-size: 1.6rem;
+margin-left: 5%;}
+
+dt, dd {text-align: center;
+    margin-left: 10%;
+    font-size: 1.2rem;
+    margin-right: 10%;
+    
+
+}
+.result {
+    background-image: linear-gradient(to bottom, white, #feb0ab);
+    margin-top: -2%;
+    background-repeat: round;
+    width: 100%;
+}
+
+
+.tituloh4 {color:black;
+    margin-left: 5%;
+    font-size: 1.5rem;
+
+}
+    .resultados { box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+        text-align: left;
+        padding: 2.4rem;
+        width: 32.7rem;
+        margin-right: -11.6rem;
+        border: 1px solid var(--bg-color);
+        border-radius: 4.6rem;
+        background: rgba(251, 152, 141, 0.767);
+    width: 20%;
+margin-left: 5%;}
+
+.resultados2 {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    text-align: left;
+    padding: 2.4rem;
+    width: 32.7rem;
+    margin-right: -11.6rem;
+    border: 1px solid var(--bg-color);
+    border-radius: 4.6rem;
+    background: rgba(251, 152, 141, 0.767);
+width: 20%;
+margin-left: 40%;
+margin-top: -27%;
+}
+
+.resultados3 { box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    text-align: left;
+    padding: 2.4rem;
+    width: 32.7rem;
+    margin-right: -11.6rem;
+    border: 1px solid var(--bg-color);
+    border-radius: 4.6rem;
+    background: rgba(251, 152, 141, 0.767);
+width: 20%;
+margin-left: 75%;
+margin-top: -25.5%;
+}
+
+.proced { background-image: linear-gradient(to top, white, #feb0ab);
+margin-top: -3.5%;}
+
+.titulo6 {font-size: 1.5rem;
+margin-left: 5%;
+color:#000000;
+
+}
+
+.procedi { 
+text-align: center;
+margin-left:10% ;
+font-size: 1.3rem;
+
+}
+
+.procedimento1 { box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    text-align: left;
+    padding: 2.4rem;
+    width: 32.7rem;
+    margin-right: -11.6rem;
+    border: 1px solid var(--bg-color);
+    border-radius: 4.6rem;
+    background: rgba(251, 152, 141, 0.767);
+width: 20%;
+margin-left: 5%;
+margin-top: 10%;}
+
+
+.procedimento2 { box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    text-align: left;
+    padding: 2.4rem;
+    width: 32.7rem;
+    margin-right: -11.6rem;
+    border: 1px solid var(--bg-color);
+    border-radius: 4.6rem;
+    background: rgba(251, 152, 141, 0.767);
+width: 20%;
+margin-left: 39%;
+margin-top: -40%;}
+
+
+.procedimento3 { box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    text-align: left;
+    padding: 2.4rem;
+    width: 32.7rem;
+    margin-right: -11.6rem;
+    border: 1px solid var(--bg-color);
+    border-radius: 4.6rem;
+    background: rgba(251, 152, 141, 0.767);
+width: 20%;
+margin-left: 70%;
+margin-top: -41%;}
