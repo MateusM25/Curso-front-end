@@ -29,13 +29,13 @@
       <div class="cabecalho">
         <img src="./imagens/semfundo4.png" alt="logo">
         <div class="menucabecalho">
-          <li><a onclick="menuclose()" href="#home">Inicio</a></li>
-          <li><a onclick="MenuClose()" href= "#procedimentos">Procedimentos</a></li>
-          <li><a onclick="MenuClose()" href="#sobre">Sobre</a></li>
-          <li><a onclick= "menuclose()" href="#localizacao">Localização</a></li>
+          <li><a href="#home">Inicio</a></li>
+          <li><a  href= "#procedimentos">Procedimentos</a></li>
+          <li><a  href="#sobre">Sobre</a></li>
+          <li><a href="#localizacao">Localização</a></li>
 
         </ul>
-        <a onclick="menuClose()" class="button" href="#contato">Fale Conosco</a>
+        <a  class="button" href="#contato">Fale Conosco</a>
         <ul class="linkcontato">
         
         </div>
@@ -45,8 +45,9 @@
     </header>
   
         <article>
-          <div class="nous">
-         <h1>Seja bem- vindo  </h1>
+          <div  class="nous">
+
+         <h1 id="home">Seja bem- vindo  </h1>
         
 
          <h3>O que é o metodo Nous Body</h3>
@@ -87,8 +88,8 @@
               </div>
 </section>
 
-<section class="proced">
-              <h6 class="titulo6"> Outros Procedimentos estéticos </h6>
+<section id="procedimentos" class="proced">
+              <h6  class="titulo6"> Outros Procedimentos estéticos </h6>
           <p class="procedi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio dolorem labore distinctio. Exercitationem enim, quo similique totam ipsa harum ex non, quia mollitia, adipisci voluptas numquam? Molestias, exercitationem architecto?</p>
 
           <div class="procedimento1">
@@ -105,12 +106,14 @@
 
           <div class="procedimento3">
             <img src="./imagens/cha.png">
+            <h5>Chá Detox</h5>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam delectus sit. Ullam quod debitis, neque laudantium veritatis commodi illo impedit perspiciatis, necessitatibus, cum doloremque nam totam accusamus maiores rem.</p>
 
           </div>
 
 </section>
 
+        <div id="localizacao" class="localiza">
  <h2> Quem somos. <small>Saiba mais sobre nossa clinica</small></h2>
 
          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi mollitia, natus, quis voluptates maxime molestias eaque vel non ipsam totam hic perspiciatis alias itaque rerum dicta veniam explicabo inventore iste?</p>
@@ -119,13 +122,12 @@
           
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, consequatur? Dignissimos, in culpa? Voluptatum assumenda rem aliquam ullam praesentium! Iure velit aut, dicta eaque laborum saepe. Id maiores quo quod!</p>
 
-        <div class="localiza">
-         <h2>Onde Estamos Localizados</h2>
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.4536949546964!2d-53.368657699486995!3d-23.407972667421717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x948d21b8f804ac89%3A0x614aa2312183995d!2sAna%20Maria%20Marques%20-%20Est%C3%A9tica!5e0!3m2!1spt-BR!2sbr!4v1654202104122!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         <h2 class="tituloloc">Onde Estamos Localizados</h2>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3661.4536949546964!2d-53.368657699486995!3d-23.407972667421717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x948d21b8f804ac89%3A0x614aa2312183995d!2sAna%20Maria%20Marques%20-%20Est%C3%A9tica!5e0!3m2!1spt-BR!2sbr!4v1654202104122!5m2!1spt-BR!2sbr" width="350" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </div>
         <div class="me">
-            <img src="./imagens/Fotoa.jpg">
+            <img  class="imga" src="./imagens/Fotoa.jpg">
             <footer class="foto"><p>Ana Maria Marques</p></footer>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, ipsa voluptatibus qui temporibus adipisci molestias magnam sed impedit. Nisi magnam recusandae optio distinctio accusantium. Quo consequatur architecto porro fugiat laborum.</p>
 
@@ -135,7 +137,7 @@
          </article>
     
 
-      <footer>
+      <footer class="rodape">
 
         <p>&copy;Ana Maria Marques. Todos os direitos reservados.
             <small>Desenvolvido por: Mateus Marques Vicentin.</small>
