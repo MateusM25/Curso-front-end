@@ -224,3 +224,7 @@ margin-left: 40%;
 }
 
 .rodape {padding-top: 7%;}
+
+.cog-branding--minimal {
+    visibility: hidden !important;
+}
