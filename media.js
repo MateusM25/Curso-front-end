@@ -8,7 +8,7 @@ function calculo_media(){
     var result = ( a + b + c + d ) / 4;
 
     var calculo = (result);
-    calculo = calculo.toFixed(4); 
+    calculo = calculo.toFixed(2); 
 
     var texto = "";
 
