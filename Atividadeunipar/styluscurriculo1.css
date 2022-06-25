@@ -1,0 +1,43 @@
+html { 
+    font-size: 62,5%;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #4c00ff;
+overflow-x: hidden
+;
+width: 100%;     
+}
+body {width: auto 100%;}
+.top  {font-size: 2.5rem;
+    padding-left: 20%;
+background-image: linear-gradient(to top, white, #4c00ff);
+ width: 100%;
+ }
+ p {font-size: 1rem;
+    margin-bottom: 0%;}
+
+ .topico {font-size: 1.2rem;
+ padding: 5px;
+font-weight: bold;}
+ 
+.input1 {margin-top: 5px;
+padding-bottom: -20px;}
+
+h1 , h2 , h3 , h4 , h5 { font-size: 1.8rem;
+margin-left: 15%;}
+
+
+.meio {font-size: 2.5rem;
+  padding-left: 20%;
+    background-image: linear-gradient(to bottom, white, #ffffff);
+    width: 100%; 
+    margin-top: -3% ;
+     }
+
+
+     .baixo {font-size: 2.5rem;
+        padding-left: 20%;
+        background-image: linear-gradient(to bottom, white, #4c00ff);
+        width: 100%;
+        margin-top: -3%;
+        padding-top: 10px;
+         }
