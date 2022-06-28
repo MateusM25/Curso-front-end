@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <!---Stylus-->
    <link rel="stylesheet"  href="/css/reset-meyer.css">
-    <link rel="stylesheet"  href="../ana/ccsana/pagina.css">
+   <link rel="stylesheet" href="../ana/ccsana/pagina.css">
     <link rel="stylesheet" href="../ana/ccsana/responsividade.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
 <!--Fontes-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,25 +28,33 @@
         <body>
 
     <header>
-      <div class="cabecalho">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+        
         <img src="./imagens/semfundo4.png" alt="logo">
-        <div class="menucabecalho">
-          <li><a href="#home">Inicio</a></li>
-          <li><a  href= "#procedimentos">Procedimentos</a></li>
-          <li><a  href="#sobre">Sobre</a></li>
-          <li><a href="#localizacao">Localização</a></li>
-
-        </ul>
-        <a  class="button" href="#contato">Fale Conosco</a>
-        <ul class="linkcontato">
         
         </div>
-      
+        <div class="col">
+<ul class="nav">
+          <li><a class="nav-item" href="#home">Inicio</a></li>
+          <li><a class="nav-item" href= "#procedimentos">Procedimentos</a></li>  
+          <li><a class="nav-item" href="#sobre">Sobre</a></li>
+
+          <li><a class="nav-item" href="#localizacao">Localização</a></li>
+
+          <li><a  class="nav-item" href="#contato">Fale Conosco</a></li>
+        </ul>
+       
+        
+        </div>
+        
+      </div>
       
       </div>
     </header>
   
-        <article>
+        
           <div  class="nous">
 
          <h1 id="home">Seja bem- vindo  </h1>
@@ -68,48 +78,60 @@
               <dt><b>Público alvo</b></dt>
               <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quis nesciunt rerum sapiente officiis itaque facere corrupti autem voluptas corporis sed blanditiis eum possimus velit esse dolorum, tempora laboriosam in.</dd>
  </dl></div>
+
  <section class="result">
+ 
               <h4 class="tituloh4">Veja alguns resultados</h4>
             
-              <div class="resultados">  
-                <img src="./imagens/barriga1.jpg">
-                <h5>2 seções</h5>
-                <p class="textresult">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit eligendi sunt atque, explicabo omnis hic deserunt aliquid commodi odio maiores.</p>
-              </div>
-              <div class="resultados2">
-                <img src="./imagens/lateral2.jpg">
-                <h5>3 seções</h5>
-                <P class="textresult">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur magnam similique facere, quos adipisci rem</P>
-              </div>
-              <div class="resultados3">
-                <img src="./imagens/perna.jpg">
-                <h5 >5 Seções</h5>
-                <p class="textresult">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium doloremque perferendis autem, corporis voluptates ipsum. Provident tenetur, error iusto, est atque repudiandae hic, fugiat ut vel dolorem ullam quod harum.</p>
-              </div>
+              
+              <img class="fotonou" src="./imagens/fundoanacopiar1.jpg">
+                <a  class="btn" data-bs-toggle="modal" data-bs-target="#modalnous" >Surpreenda-se
+                </a>
+              
+          
 </section>
 
 <section id="procedimentos" class="proced">
               <h6  class="titulo6"> Outros Procedimentos estéticos </h6>
-          <p class="procedi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio dolorem labore distinctio. Exercitationem enim, quo similique totam ipsa harum ex non, quia mollitia, adipisci voluptas numquam? Molestias, exercitationem architecto?</p>
+          <p class="procedi">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae optio dolorem labore distinctio. Exercitationem enim, quo similique totam ipsa harum ex non, quia mollitia, adipisci voluptas numquam? Molestias, exercitationem architecto?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, reiciendis explicabo cum atque sunt amet enim animi, non autem, sequi at cumque tempora maxime eveniet neque suscipit laborum adipisci distinctio?
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam voluptate, sint necessitatibus corrupti sunt aspernatur exercitationem, possimus magnam deleniti laboriosam odit sequi! Architecto rerum facilis nisi itaque minima, repudiandae ea.
 
-          <div class="procedimento1">
-           <img src="./imagens/limpezapele.png">
-            <h5> Limpeza de Pele</h5>
-            <p class="textproced">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, dolorum quos? Inventore architecto earum aliquid a magnam ex esse error vel ab dolores. Assumenda eaque quam, ex labore sequi libero?</p>         
-          </div>
+          </p>
+          <div class="row1">
+          <div class="col">
+            <div class="card">
           
-          <div class="procedimento2">
-              <img src="./imagens/perrolaser.png">
+            <h5> Limpeza de Pele</h5>
+            <p class="textproced">Pele Ressecada, precisando de hidratação,Oleosa, Conheça nosso Procesimento de Limpeza, Que traz vida de volta a sua pele.</p> 
+            <a  class="btn" data-bs-toggle="modal" data-bs-target="#modal1" >Saiba Mais.
+            </a>        
+          </div>
+          </div></div>
+
+          <div class="row2">
+          <div class="col">
+            <div class="card">
+            
               <h5>Depilação a Laser</h5>
-              <p class="textproced">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quam laudantium sapiente ullam. Nam reprehenderit dignissimos esse provident perferendis aliquid hic aut consequatur tempore et nobis, ratione doloribus itaque beatae?</p>
+              <p class="textproced">Irritação na pele com gilete, Dor demais na cera, Não sofra mais com a depilação a laser você acaba com esse problema em algumas sessões. </p>
+              <a  class="btn" data-bs-toggle="modal" data-bs-target="#modal3" >Saiba Mais.
+              </a>
+            </div>
+          </div>
             </div>
 
-          <div class="procedimento3">
-            <img src="./imagens/cha.png">
+            <div class="row3">
+          <div class="col">
+            <div class="card">
+            
             <h5>Chá Detox</h5>
-            <p class="textproced">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium numquam delectus sit. Ullam quod debitis, neque laudantium veritatis commodi illo impedit perspiciatis, necessitatibus, cum doloremque nam totam accusamus maiores rem.</p>
-
+            <p class="textproced">Quer um Chá Produzido selecionando cada ingrediente para melhor atender, tirando aquela sensação de inchaço, trazendo maior bem estar.</p>
+            <a  class="btn" data-bs-toggle="modal" data-bs-target="#modal2" >Saiba Mais.
+            </a>
           </div>
+          </div>
+        </div>
 
 </section>
 
@@ -131,11 +153,132 @@
             <footer class="foto"><p>Ana Maria Marques</p></footer>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae, ipsa voluptatibus qui temporibus adipisci molestias magnam sed impedit. Nisi magnam recusandae optio distinctio accusantium. Quo consequatur architecto porro fugiat laborum.</p>
 
+
         </div> 
 
+<!--Modal-->
+<div class="modal fade" id="modalnous" tabindex="-1" role="dialog" aria-labelledby="titulomodal1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="titulomodal1">Resultado com 5 sessões.</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="../ana/imagens/nous1.png">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, minus unde incidunt perferendis eligendi vero laborum iusto sit repellat qui ut. Voluptatibus, alias facere nostrum exercitationem aut quo est dolorem!</p>
+         
+        <h6>Pernas</h6>
+        <img src="../ana/imagens/perna.jpg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque impedit repellendus cum repudiandae voluptatibus quibusdam labore non officia amet, illo ipsum quis. Doloribus dignissimos, vel id incidunt voluptatem saepe ipsum.</p>
 
-         </article>
-   
+        <h6>Barriga</h6>
+        <img src="../ana/imagens/nous2.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, adipisci magnam? Dolores rem rerum reiciendis odio incidunt! Accusamus vel quae cumque, nemo dolores temporibus aspernatur incidunt, assumenda cum, dolore expedita!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="titulomodal1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="titulomodal1">Limpeza de Pele </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="../ana/imagens/limpezapele.png">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, minus unde incidunt perferendis eligendi vero laborum iusto sit repellat qui ut. Voluptatibus, alias facere nostrum exercitationem aut quo est dolorem!</p>
+         
+        <h6>Procedimento</h6>
+        <img src="../ana/imagens/limpezapele2.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque impedit repellendus cum repudiandae voluptatibus quibusdam labore non officia amet, illo ipsum quis. Doloribus dignissimos, vel id incidunt voluptatem saepe ipsum.</p>
+        <h6>Produtos utilizados</h6>
+        <img src="../ana/imagens/limpezapele2.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque impedit repellendus cum repudiandae voluptatibus quibusdam labore non officia amet, illo ipsum quis. Doloribus dignissimos, vel id incidunt voluptatem saepe ipsum.</p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+<div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="titulomodal1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="titulomodal1">Limpeza de Pele </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="../ana/imagens/cha.png">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, minus unde incidunt perferendis eligendi vero laborum iusto sit repellat qui ut. Voluptatibus, alias facere nostrum exercitationem aut quo est dolorem!</p>
+         
+        <h6>Procedimento</h6>
+        <img src="../ana/imagens/cha2.png">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque impedit repellendus cum repudiandae voluptatibus quibusdam labore non officia amet, illo ipsum quis. Doloribus dignissimos, vel id incidunt voluptatem saepe ipsum.</p>
+        <h6>Produtos utilizados</h6>
+        <img src="../ana/imagens/">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque impedit repellendus cum repudiandae voluptatibus quibusdam labore non officia amet, illo ipsum quis. Doloribus dignissimos, vel id incidunt voluptatem saepe ipsum.</p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        
+      </div>
+    </div>
+  </div>
+
+  
+</div>
+<div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="titulomodal1" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="titulomodal1">Depilação A leser </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <img src="../ana/imagens/laseer.jpg">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus, minus unde incidunt perferendis eligendi vero laborum iusto sit repellat qui ut. Voluptatibus, alias facere nostrum exercitationem aut quo est dolorem!</p>
+         
+        <h6>Procedimento</h6>
+        <img src="../ana/imagens/laseer2.jpg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque impedit repellendus cum repudiandae voluptatibus quibusdam labore non officia amet, illo ipsum quis. Doloribus dignissimos, vel id incidunt voluptatem saepe ipsum.</p>
+        <h6>Produtos utilizados
+        </h6>
+        <img src="../ana/imagens/laseer3.jpg">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque impedit repellendus cum repudiandae voluptatibus quibusdam labore non officia amet, illo ipsum quis. Doloribus dignissimos, vel id incidunt voluptatem saepe ipsum.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus perspiciatis amet tempora. Temporibus, iusto molestiae! Error velit reiciendis ducimus vero asperiores ea labore provident optio in totam, officiis ad nesciunt?
+        </p>
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+        
+      </div>
+    </div>
+  </div>
+
+  
+</div>
 <div id="contato">
   <script src="https://www.cognitoforms.com/f/seamless.js" data-key="QVG-kfzrTEWAlyr6WPxmJA" data-form="1"></script>
            </div> 
@@ -147,5 +290,8 @@
         </p>
         
     </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
 </html>
