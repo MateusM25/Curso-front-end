@@ -7,10 +7,13 @@ html {font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Tiro Devanagari Marathi', serif;
     font-family: 'Tiro Telugu', serif;
 font-size: 62,5%;
-width: 100%;}
+width: 100%;
+overflow-y: scroll;
+overflow-x: hidden;
+}
 
 
-header {background-color: rgba(251, 152, 141, 0.767);
+header {background-color: rgba(251, 152, 141, 0.567);
 margin-inline:auto;
 
 font-size: 0.8rem;
@@ -28,25 +31,40 @@ header .cabecalho{
     visibility: visible;
 
 }
+li{padding-top: 5%;}
 
+
+.nav-item{
+    
+    text-align: right;
+    text-decoration: none;
+    padding-inline-end: 20px;
+    
+    color: #000000;
+}
 header .menucabecalho{
     display: flex;
     align-items: center;
     justify-content: space-between;
 margin-left: 20%;
 margin-top: -2%;
+display: inline;
 
 }
+
+
 a { text-decoration: none;
 border: 2px;
 color: black; 
     width: auto;
-font-size: 1.5rem;
+font-size: 1.2rem;
 
+text-decoration: none;
 } 
 
 h1 {font-size: 2.5rem;
-    margin-top: 6.8%;
+    padding-top: 5%;
+    
 margin-left: 40%;
 color: #F291AA;}
 
@@ -76,13 +94,20 @@ dt, dd {text-align: center;
     
 
 }
-.result {
-    background-image: linear-gradient(to bottom, white, #feb0ab);
+.result   {background-image: linear-gradient(to bottom, white, #feb0ab);
+   
     margin-top: -2%;
     background-repeat: round;
     width: 100%;
-}
+    
 
+}
+.fotonou , .btn{ width: 20%;
+
+margin-left: 40%;
+border-radius: 50%;
+}
+.btn{color: #EB8681;}
 
 .tituloh4 {color:black;
     margin-left: 5%;
@@ -90,6 +115,10 @@ dt, dd {text-align: center;
     padding: 5%;
 
 }
+.img1{ width: 20%;}
+
+
+
     .resultados { box-sizing: border-box;
         display: flex;
         flex-direction: column;
@@ -138,11 +167,15 @@ margin-top: -40.5%;
 }
 
 .proced { background-image: linear-gradient(to top, white, #feb0ab);
-margin-top: -4.5%;}
+margin-top: -.8%;
+
+}
+.card {width: 25%;}
 
 .titulo6 {font-size: 1.5rem;
 margin-left: 5%;
 color:#000000;
+padding-top: 5%;
 
 }
 
@@ -150,7 +183,7 @@ color:#000000;
 text-align: center;
 margin-left:10% ;
 font-size: 1.3rem;
-
+padding-top: 5%;
 }
 
 .procedimento1 { box-sizing: border-box;
@@ -200,7 +233,8 @@ width: 20%;
 margin-left: 70%;
 margin-top: -73%;}
 
-.localiza { background-image: linear-gradient(to bottom, white, #feb0ab);}
+.localiza { background-image: linear-gradient(to bottom, white, #feb0ab);
+}
 
 
 
@@ -213,12 +247,15 @@ p {text-align: center;
    
     margin-right: 10%;}
 
-    .tituloloc {margin-left: 40%;
+    .tituloloc {margin-left: 35%;
     padding-top: 10%;}
 
 
-iframe { margin-left: 29%;
-padding: 10%;}
+iframe { margin-left: 25%;
+padding: 10%;
+width: 60%;
+height: 40%;
+}
 
 .me {background-image: linear-gradient(to top, white, #feb0ab);}
 
@@ -233,5 +270,26 @@ margin-left: 40%;
     visibility: hidden !important;
 }
 
+.row3 { margin-left: 65%;
+width: 100%;
+margin-top: -19%;
+padding-bottom: 20%;
 
+}
 
+h5 { text-align:center;
+
+}
+
+.row1 {
+    margin-left: 5%;
+    padding-top: 10%;
+
+}
+
+.row2 {
+margin-left: 35%;
+margin-top: -20.5%;
+width: 100%;
+
+}

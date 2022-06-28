@@ -6,25 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- stylus -->
-    <link rel="stylesheet" type="text/css" href="./styluscurriculo1.css">
+    <link rel="stylesheet" type="text/css" href="./css/styluscurriculo1.css">
 </head>
 <body>
-
+<form method="post" action="resultado.php">
     <!--Topico 1 Nome - estado-->
     <section class="top">
         <h1>Crie seu Curriculo</h1>
       
         <form class="nome">
              <P class="topico"><img src="../Atividadeunipar/mais.ico/perfil-de-usuario.png">  Digite seu nome</p>
-            <input class="input1"  type="text" size="50" placeholder="Nome ">
+            <input class="input1" name="nome" type="text" size="50" placeholder="Nome ">
             <P class="topico" ><img src="../Atividadeunipar/mais.ico/telefone.png"> telefone </P>
-            <input class="input1"  type="nuber" placeholder="Telefone">
+            <input class="input1" name="telefone" type="nuber" placeholder="Telefone">
             <p class="topico"><img src="../Atividadeunipar/mais.ico/o-email.png"> Endereço De E-mail</p>
-            <input class="input1"  type="text" size="35"  placeholder="Email">
+            <input class="input1" name="email" type="text" size="35"  placeholder="Email">
             <p class="topico"><img src="../Atividadeunipar/mais.ico/linkedin.png">   Linkedin</p>
-            <input class="input1" type="text" size="35"  placeholder="Linkedin">
+            <input class="input1" name="linkedin" type="text" size="35"  placeholder="Linkedin">
             <p class="topico"><img src="../Atividadeunipar/mais.ico/endereco.png">  Cidade</p>
-            <input type="Text" size="35"  placeholder="Cidade">
+            <input type="Text" name="cidade" size="35"  placeholder="Cidade">
             <p class="topico"> <img src="../Atividadeunipar/mais.ico/brasil.png ">  Selecione Estado</p>
             <select>
                 <option value="AC">AC</option>
@@ -65,9 +65,9 @@
 
      <section class="meio">  
         <h2>Perfil </h2>
-        <input  size="60" rows="5"   type="text" placeholder="Fale Sobre você">
+        <input  size="60" rows="5" name="resumo"  type="text" placeholder="Fale Sobre você">
         <p class="topico"> <img src="../Atividadeunipar/mais.ico/pencil.png">  Habilidades</p>
-        <input type="text" placeholder="Habilidades">
+        <input type="text" name="habilidades" placeholder="Habilidades">
      </section>
 
      <!--Formação-->
@@ -76,11 +76,11 @@
         <section class="baixo">
             <h3>Formação    <img src="../Atividadeunipar/mais.ico/abas.png "></h3>
             <p class="topico"><img src="../Atividadeunipar/mais.ico/escola.png ">  Instituição</p>
-            <input type="text">
+            <input type="text" name="instituicao">
             <p class="topico"><img src="../Atividadeunipar/mais.ico/graduacao.png ">  Curso</p>
-            <input type="text" placeholder="Curso">
+            <input type="text" name="curso" placeholder="Curso">
             <p class="topico" > <img src="../Atividadeunipar/mais.ico/brasil.png ">  Selecione o Estado</p>
-            <select>
+            <select name="estado2">
                 <option value="Acre">Acre</option>
                 <option value="Alagoas">Alagoas</option>
                 <option value="Amapá">Amapá</option>
@@ -120,20 +120,20 @@
         
             <H4 src="../Atividadeunipar/mais.ico/plus_+_512px.png">   Experiencias Profissionais                   <img src="../Atividadeunipar/mais.ico/abas.png "></H4>
             <p class="topico"><img src="../Atividadeunipar/mais.ico/companhia.png ">  Empresa</p>
-            <input type="text" placeholder="Empresa">
+            <input type="text" name="empresa" placeholder="Empresa">
             <p class="topico"><img src="../Atividadeunipar/mais.ico/servicos-digitais.png ">   Cargo E serviços Desempenhados</p>
-            <input type="text">
+            <input type="text" name="cargos">
             <p class="topico"><img src="../Atividadeunipar/mais.ico/calendario-desktop.png ">   Data de Inicio</p>
-            <input type="date" name="data">
+            <input type="date" name="datai" >
             <p class="topico"><img src="../Atividadeunipar/mais.ico/calendario-desktop.png ">   Fim</p>
-            <input type="date" name="data">
+            <input type="date" name="dataf">
            <br> <input  type="checkbox" name="Meucargo" value="Meu Cargo Atual"> <p class="topico">   Meu Cargo atualmente.</p>
       
       
       <!--Lingua estranjeira-->
 
         <H5>Lingua Estrangeira </H5><p class="topico"><img src="../Atividadeunipar/mais.ico/eng.png ">   Inglês</p>
-        <select>
+        <select name="ingles">
             
             <Option value="Básico">Básico</Option>
             <option value="Intermediario">Intermediario</option>
@@ -141,13 +141,15 @@
               <option value="Fluente">Fluente</option>
 
             </select><p class="topico"><img src="../Atividadeunipar/mais.ico/espanhol.png ">   Espanhol</p>
-           <select>
+           <select name="spain">
             <Option value="Básico">Básico</Option>
             <option value="Intermediario">Intermediario</option>
             <option value="Avançado">Avançado</option>
               <option value="Fluente">Fluente</option></select>
       </section>
-<footer><input class="botao" type="button">Criar</footer>
-
+      <input type="submit" name="enviar" value="Enviar" > 
+</form>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
