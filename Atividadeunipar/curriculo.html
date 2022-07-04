@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="./css/styluscurriculo1.css">
 </head>
 <body>
-<form method="post" action="resultado.php">
+<form method="POST" action="resultado.php">
     <!--Topico 1 Nome - estado-->
     <section class="top">
         <h1>Crie seu Curriculo</h1>
@@ -26,7 +26,7 @@
             <p class="topico"><img src="../Atividadeunipar/mais.ico/endereco.png">  Cidade</p>
             <input type="Text" name="cidade" size="35"  placeholder="Cidade">
             <p class="topico"> <img src="../Atividadeunipar/mais.ico/brasil.png ">  Selecione Estado</p>
-            <select>
+            <select name="estado1">
                 <option value="AC">AC</option>
                 <option value="AL">AL</option>
                 <option value="AP">AP</option>
@@ -56,7 +56,7 @@
                 <option value="TO">TO</option>
           </select>
 
-        </form>
+       
 </section>
   
 
@@ -147,7 +147,7 @@
             <option value="Avançado">Avançado</option>
               <option value="Fluente">Fluente</option></select>
       </section>
-      <input type="submit" name="enviar" value="Enviar" > 
+      <input type="submit" name="button" id="button" value="Enviar" />
 </form>
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="js/index.js"></script>
